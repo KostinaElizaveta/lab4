@@ -1,8 +1,9 @@
-Laboratory work III
+Laboratory work 3
 
 Данная лабораторная работа посвещена изучению систем контроля версий на примере Git.
 
 $ open https://git-scm.com
+
 Tasks
 
  1. Создать публичный репозиторий с названием lab03 и с лиценцией MIT
@@ -76,7 +77,8 @@ $ git status
 $ git add .
 $ git commit -m"added sources"
 $ git push origin master
-Report
+
+Report 
 
 $ cd ~/workspace/labs/
 $ export LAB_NUMBER=03
@@ -86,8 +88,8 @@ $ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
 $ cd reports/lab${LAB_NUMBER}
 $ edit REPORT.md
 $ gistup -m"lab${LAB_NUMBER}"
-Links
 
+Links
 GitHub
 Bitbucket
 Gitlab
